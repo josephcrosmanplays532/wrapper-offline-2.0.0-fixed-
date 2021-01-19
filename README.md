@@ -1,17 +1,17 @@
-# Wrapper
-This is a Goanimate Legacy Video Maker Remake built in [Node.js](https://nodejs.org/)
+# Wrapper Online Developement:
+This is offering start Legacy Video Maker until 25 February 2021
 
-# Server
-If you want to edit the Asset Server, then click [here](https://github.com/2Epik4u/Wrapper-Online-Assets).
+# Unflash : Ungoggled Chromium
+Before update use Unflash until February 7 2021
 
-# Start
-To access this service, install [Node.JS](https://nodejs.org/en/) then clone/download this project.	Once done, unzip the folder, copy the path, and execute the following commands in your command prompt (where `{PATH}` is the folder path you copied):
-```console
-cd "{PATH}\Wrapper-Online"
-npm start
-```
+# Wrapper Online+
+To access this service, Switch of Wrapper Online+ until January 31 2021 Wrapper Online+ Has Retired until December 14 2021 based by Wrapepr Online Gold
 
-# Host On Evennode
+
+
+
+
+# Server Wrapper Heroku
 1. make a account
 2. make a node.js evennode
 3. open command prompt on your main pc (NOT EVENNODE) and run this command ``ssh-keygen -t rsa -C "your_email@example.com"``
