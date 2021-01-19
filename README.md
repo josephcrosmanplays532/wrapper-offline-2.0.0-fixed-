@@ -5,7 +5,7 @@ This is offering start Legacy Video Maker until 25 February 2021
 Before update use Unflash until February 7 2021
 
 # Wrapper Online+
-To access this service, Switch of Wrapper Online+ until January 31 2021 Wrapper Online+ Has Retired until December 14 2021 based by Wrapepr Online Gold
+To access this service, Switch of Wrapper Online+ until January 31 2021 Wrapper Online+ Has Retired until December 14 2021 based by Wrapper Online Gold
 
 
 
