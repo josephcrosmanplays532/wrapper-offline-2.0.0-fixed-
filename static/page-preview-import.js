@@ -66,7 +66,7 @@ module.exports = function (req, res, url) {
     </div>
 <div class="ga-importer">
         <div class="ga-importer-header">
-            <form class="ga-importer-base-form" action="/web/20180930132917/http://vyondhoster.000webhostapp.com/ajax/saveUserProp" method="post">
+            <form class="ga-importer-base-form" action="https://web.archive.org/web/20180930132917/http://vyondhoster.000webhostapp.com/ajax/saveUserProp" method="post">
                 <a class="ga-importer-collapse" href="#" title="Collapse" onclick="hideImporter(); return false;">×</a>
                 <div class="fileinputs">
                     <div class="importer-button file-trigger" style="width:140px;">SELECT FILES</div>
