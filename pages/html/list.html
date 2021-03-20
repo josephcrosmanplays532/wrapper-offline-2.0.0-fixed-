@@ -3,69 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" href="../../favicon.ico" type="image/png">
-	<title>Video List</title>
-	<meta name="description" content="Wrapper: Offline's Video List">
+	<title>Wrapper Online Home</title>
+	<meta name="description" content="Wrapper Online is the Website edition to Wrapper offline | Legacy video maker for the GoAnimate community! Discord server: Https://discord.gg/goanimate">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Wrapper Online Home" />
+	<meta property="og:description" content="Wrapper Online is the Website edition to Wrapper offline | Legacy video maker for the GoAnimate community! Discord server: Https://discord.gg/goanimate" />
+	<meta property="og:url" content="https://wrapper.online/" />
+	<meta property="og:image:secure_url" content="favicon.ico" /> 
+	<meta property="og:image:" content="favicon.ico" /> 
+	<meta name="theme-color" content="#FF0080">
+	<link rel="stylesheet" type="text/css" href="../css/modern-normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/global.css">
+	<link rel="stylesheet" type="text/css" href="../css/list.css">
 	<link rel="stylesheet" type="text/css" href="../css/modern-normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/global.css">
 	<link rel="stylesheet" type="text/css" href="../css/list.css">
 </head>
 <body>
-	<header>
-		<div>
-			<div>
-				<a href="./"><img src="../img/logo.png" /></a>
-				<span>VERSIÖN</span>
-			</div>
-			<div>
-				<a class="button_small" onclick="document.getElementById('movie_file').click()">UPLOAD A MOVIE</a>
-				<!-- <a class="button_small" onclick="document.getElementById('character_file').click()">UPLOAD A CHARACTER</a> -->
-	            <!-- I marked it as HTML comment since I haven't gotten character uploading from the video list to work yet. ~xom-->
-				<div class="char_dropdown button_small">
-					<div>CREATE A CHARACTER</div>
-					<menu>
-						<a href="/cc?themeId=family&bs=adam">Adam</a>
-						<a href="/cc?themeId=family&bs=eve">Eve</a>
-						<a href="/cc?themeId=family&bs=bob">Bob</a>
-						<a href="/cc?themeId=family&bs=rocky">Rocky</a>
-						<div></div>
-						<a href="/cc?themeId=business&bs=default">Business</a>
-						<a href="/cc?themeId=business&bs=heavy">Heavy</a>
-						<a href="/cc?themeId=business&bs=kid">Kid</a>
-						<div></div>
-						<a href="/cc?themeId=whiteboard&bs=default">Whiteboard</a>
-						<a href="/cc?themeId=whiteboard&bs=kid">Whiteboard (Kid)</a>
-						<div></div>
-						<a href="/cc?themeId=anime&bs=guy">Guy (Anime)</a>
-						<a href="/cc?themeId=anime&bs=girl">Girl (Anime)</a>
-						<div></div>
-						<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja Anime)</a>
-						<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja Anime)</a>
-						<div></div>
-						<a href="/cc?themeId=cc2&bs=default">Lil' Peepz</a>
-						<div></div>
-						<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
-						<div></div>
-						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
-					</menu>
-				</div>
-				<div class="char_dropdown button_small">
-					<div>BROWSE CHARACTERS</div>
-					<menu>
-						<a href="/cc_browser?themeId=business">Business Friendly</a>
-						<a href="/cc_browser?themeId=whiteboard">Whiteboard Animation</a>
-						<a href="/cc_browser?themeId=family">Comedy World</a>
-						<a href="/cc_browser?themeId=anime">Anime</a>
-						<a href="/cc_browser?themeId=ninjaanime">Ninja Anime</a>
-						<a href="/cc_browser?themeId=cc2">Lil' Peepz</a>
-						<a href="/cc_browser?themeId=chibi">Chibi Peepz</a>
-						<a href="/cc_browser?themeId=ninja">Chibi Ninjas</a>
-					</menu>
-				</div>
-				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
-			</div>
+
+<header>
+	<div class="header_content">
+		<div id="logo_container">
+			<img id="logo" src="../img/logo.png" alt="Wrapper: Online"/>
+			
 		</div>
-		<div class="warning"> Wrapper Online/Offline 2.0.0 is currently in logo fix development. please note that any videos might be deleted at this time of development.</div>
-	</header>
+		<nav id="headbuttons">
+			<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
+			<!-- <a class="button_small" onclick="document.getElementById('character_file').click()">UPLOAD A CHARACTER</a> -->
+			<!-- I marked it as HTML comment since I haven't gotten character uploading from the video list to work yet. ~xom-->
+			<div class="dropdown_contain button_small">
+				<div class="dropdown_button">CREATE A CHARACTER</div>
+				<nav class="dropdown_menu">
+					<h2>Comedy World</h2>
+					<a href="/cc?themeId=family&bs=adam">Guy (Adam)</a>
+					<a href="/cc?themeId=family&bs=eve">Girl (Eve)</a>
+					<a href="/cc?themeId=family&bs=bob">Fat (Bob)</a>
+					<a href="/cc?themeId=family&bs=rocky">Buff (Rocky)</a>
+					<hr>
+					<h2>Anime</h2>
+					<a href="/cc?themeId=anime&bs=guy">Guy</a>
+					<a href="/cc?themeId=anime&bs=girl">Girl</a>
+					<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja)</a>
+					<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja)</a>
+					<hr>
+					<h2>Peepz</h2>
+					<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
+					<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
+					<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
+				</nav>
+			</div>
+			<div id="browse_chars" class="dropdown_contain button_small">
+				<div class="dropdown_button">BROWSE CHARACTERS</div>
+				<nav class="dropdown_menu">
+					<a href="/cc_browser?themeId=family">Comedy World</a>
+					<a href="/cc_browser?themeId=anime">Anime</a>
+					<a href="/cc_browser?themeId=ninjaanime">Ninja Anime</a>
+					<a href="/cc_browser?themeId=cc2">Lil' Peepz</a>
+					<a href="/cc_browser?themeId=chibi">Chibi Peepz</a>
+					<a href="/cc_browser?themeId=ninja">Chibi Ninjas</a>
+				</nav>
+			</div>
+			<a href="themelist.html" id="videomaker" class="button_big">MAKE A VIDEO</a>
+		</nav>
+	<div>
+</header>
+<div class="warning">Wrapper Offline/Online 2.0.0 (fixed verison) is fully working!</div>
 
 <main>
 	<table>
